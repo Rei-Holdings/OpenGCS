@@ -11,3 +11,6 @@ OpenGCS is planning for several things in the future:
 3. Expansion to other RX/TX modules
 4. Expansion+Optimizations for specific Arduino boards
 5. RTL, Loiter, Follow Me, and other improvements
+
+## Framework
+OpenGCS is made from a mix of Python-based Processing for UI, Arduino sketches for basic code, and C/C++ for libraries and other residuals.
