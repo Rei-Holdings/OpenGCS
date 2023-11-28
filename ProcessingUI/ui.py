@@ -13,7 +13,7 @@ ver = "v0.0.1 Nightly"
 ui = App(width, height)
 process_count = 0
 
-# serial read code courtesy of mrExplore on the Arduino Forum!
+# serial read code courtesy of mrExplore on the Arduino Forum, edited to program needs and expanded
 def readserial(baudrate, timestamp=False):
     try:
         ser1 = Serial('COM1', baudrate, timeout=0.1)
