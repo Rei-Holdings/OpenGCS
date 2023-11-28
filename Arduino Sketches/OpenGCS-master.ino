@@ -3,10 +3,11 @@
 #include <Arduino.h>
 
 void setup() {
-    Serial.begin(115400);
+    Serial.begin(250000);
 }
 
 void loop() {
-    // Save data to file for Processing
+    // Data will be scraped from Serial
+
     
 }
